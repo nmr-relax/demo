@@ -1,0 +1,38 @@
+###############################################################################
+#                                                                             #
+# Copyright (C) 2017 Edward d'Auvergne                                        #
+#                                                                             #
+# This file is part of the program relax (http://www.nmr-relax.com).          #
+#                                                                             #
+# This program is free software: you can redistribute it and/or modify        #
+# it under the terms of the GNU General Public License as published by        #
+# the Free Software Foundation, either version 3 of the License, or           #
+# (at your option) any later version.                                         #
+#                                                                             #
+# This program is distributed in the hope that it will be useful,             #
+# but WITHOUT ANY WARRANTY; without even the implied warranty of              #
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the               #
+# GNU General Public License for more details.                                #
+#                                                                             #
+# You should have received a copy of the GNU General Public License           #
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.       #
+#                                                                             #
+###############################################################################
+
+
+Licensing
+=========
+
+These files are licensed under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version:
+
+amp_fast.mac:                                                                           Copyright (C) 2017 Edward d'Auvergne
+amp_slow.mac:                                                                           Copyright (C) 2017 Edward d'Auvergne
+rex.mac:                                                                                Copyright (C) 2017 Edward d'Auvergne
+s2.mac:                                                                                 Copyright (C) 2017 Edward d'Auvergne
+s2f.mac:                                                                                Copyright (C) 2017 Edward d'Auvergne
+s2s.mac:                                                                                Copyright (C) 2017 Edward d'Auvergne
+te.mac:                                                                                 Copyright (C) 2017 Edward d'Auvergne
+tf.mac:                                                                                 Copyright (C) 2017 Edward d'Auvergne
+time_fast.mac:                                                                          Copyright (C) 2017 Edward d'Auvergne
+time_slow.mac:                                                                          Copyright (C) 2017 Edward d'Auvergne
+ts.mac:                                                                                 Copyright (C) 2017 Edward d'Auvergne
