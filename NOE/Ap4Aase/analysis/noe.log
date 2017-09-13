@@ -1,0 +1,736 @@
+
+
+
+                                     relax repository checkout
+                              6e9f0944339278cbf0217c59809f21eb9a626366
+                        ssh://git@bitbucket.org/nmr-relax/relax.git (fetch)
+                         ssh://git@bitbucket.org/nmr-relax/relax.git (push)
+                             git@github.com:nmr-relax/relax.git (fetch)
+                             git@github.com:nmr-relax/relax.git (push)
+                             git@gitlab.com:nmr-relax/relax.git (fetch)
+                             git@gitlab.com:nmr-relax/relax.git (push)
+                     ssh://edauvergne@git.code.sf.net/p/nmr-relax/code (fetch)
+                      ssh://edauvergne@git.code.sf.net/p/nmr-relax/code (push)
+
+                              Molecular dynamics by NMR data analysis
+
+                             Copyright (C) 2001-2006 Edward d'Auvergne
+                         Copyright (C) 2006-2017 the relax development team
+
+This is free software which you are welcome to modify and redistribute under the conditions of the
+GNU General Public License (GPL).  This program, including all modules, is licensed under the GPL
+and comes with absolutely no warranty.  For details type 'GPL' within the relax prompt.
+
+Assistance in using the relax prompt and scripting interface can be accessed by typing 'help' within
+the prompt.
+
+Processor fabric:  Uni-processor.
+
+script = 'noe.py'
+----------------------------------------------------------------------------------------------------
+###############################################################################
+#                                                                             #
+# Copyright (C) 2004-2005,2008 Edward d'Auvergne                              #
+#                                                                             #
+# This file is part of the program relax (http://www.nmr-relax.com).          #
+#                                                                             #
+# This program is free software: you can redistribute it and/or modify        #
+# it under the terms of the GNU General Public License as published by        #
+# the Free Software Foundation, either version 3 of the License, or           #
+# (at your option) any later version.                                         #
+#                                                                             #
+# This program is distributed in the hope that it will be useful,             #
+# but WITHOUT ANY WARRANTY; without even the implied warranty of              #
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the               #
+# GNU General Public License for more details.                                #
+#                                                                             #
+# You should have received a copy of the GNU General Public License           #
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.       #
+#                                                                             #
+###############################################################################
+
+"""Script for calculating NOEs."""
+
+
+# Python module imports.
+from time import asctime, localtime
+
+# relax module imports.
+from auto_analyses.noe import NOE_calc
+
+
+# Create the data pipe.
+pipe_bundle = "noe (%s)" % asctime(localtime())
+pipe.create(pipe_name='NOE', pipe_type='noe', bundle=pipe_bundle)
+
+# Load the sequence.
+sequence.read(file='Ap4Aase.seq', dir='..', res_num_col=1, res_name_col=2)
+
+# Name the spins so they can be matched to the assignments.
+spin.name(name='N')
+
+# Add the Trp 40 indole spin.
+spin.create(res_num=40, spin_name='NE1')
+
+# Load the reference spectrum and saturated spectrum peak intensities.
+spectrum.read_intensities(file='ref_ave.list', dir='..', spectrum_id='ref_ave')
+spectrum.read_intensities(file='sat_ave.list', dir='..', spectrum_id='sat_ave')
+
+# Set the spectrum types.
+noe.spectrum_type('ref', 'ref_ave')
+noe.spectrum_type('sat', 'sat_ave')
+
+# Set the errors.
+spectrum.baseplane_rmsd(error=3200, spectrum_id='ref_ave')
+spectrum.baseplane_rmsd(error=2600, spectrum_id='sat_ave')
+
+# Individual residue errors.
+spectrum.baseplane_rmsd(error=15000, spectrum_id='ref_ave', spin_id=":114")
+spectrum.baseplane_rmsd(error=2400, spectrum_id='sat_ave', spin_id=":114")
+
+# Deselect unresolved residues.
+deselect.read(file='unresolved', dir='..', res_num_col=1)
+
+# Execute the auto-analysis.
+NOE_calc(pipe_name='NOE', pipe_bundle=pipe_bundle, file_root='noe', results_dir='.', save_state=True)
+
+----------------------------------------------------------------------------------------------------
+
+relax> pipe.create(pipe_name='NOE', pipe_type='noe', bundle='noe (Wed Sep 13 13:57:43 2017)')
+
+relax> sequence.read(file='Ap4Aase.seq', dir='..', spin_id_col=None, mol_name_col=None, res_num_col=1, res_name_col=2, spin_num_col=None, spin_name_col=None, sep=None, spin_id=None)
+Opening the file '../Ap4Aase.seq' for reading.
+# mol_name    res_num    res_name    spin_num    spin_name    
+None          1          GLY         None        None         
+None          2          PRO         None        None         
+None          3          LEU         None        None         
+None          4          GLY         None        None         
+None          5          SER         None        None         
+None          6          MET         None        None         
+None          7          ASP         None        None         
+None          8          SER         None        None         
+None          9          PRO         None        None         
+None          10         PRO         None        None         
+None          11         GLU         None        None         
+None          12         GLY         None        None         
+None          13         TYR         None        None         
+None          14         ARG         None        None         
+None          15         ARG         None        None         
+None          16         ASN         None        None         
+None          17         VAL         None        None         
+None          18         GLY         None        None         
+None          19         ILE         None        None         
+None          20         CYS         None        None         
+None          21         LEU         None        None         
+None          22         MET         None        None         
+None          23         ASN         None        None         
+None          24         ASN         None        None         
+None          25         ASP         None        None         
+None          26         LYS         None        None         
+None          27         LYS         None        None         
+None          28         ILE         None        None         
+None          29         PHE         None        None         
+None          30         ALA         None        None         
+None          31         ALA         None        None         
+None          32         SER         None        None         
+None          33         ARG         None        None         
+None          34         LEU         None        None         
+None          35         ASP         None        None         
+None          36         ILE         None        None         
+None          37         PRO         None        None         
+None          38         ASP         None        None         
+None          39         ALA         None        None         
+None          40         TRP         None        None         
+None          41         GLN         None        None         
+None          42         MET         None        None         
+None          43         PRO         None        None         
+None          44         GLN         None        None         
+None          45         GLY         None        None         
+None          46         GLY         None        None         
+None          47         ILE         None        None         
+None          48         ASP         None        None         
+None          49         GLU         None        None         
+None          50         GLY         None        None         
+None          51         GLU         None        None         
+None          52         ASP         None        None         
+None          53         PRO         None        None         
+None          54         ARG         None        None         
+None          55         ASN         None        None         
+None          56         ALA         None        None         
+None          57         ALA         None        None         
+None          58         ILE         None        None         
+None          59         ARG         None        None         
+None          60         GLU         None        None         
+None          61         LEU         None        None         
+None          62         ARG         None        None         
+None          63         GLU         None        None         
+None          64         GLU         None        None         
+None          65         THR         None        None         
+None          66         GLY         None        None         
+None          67         VAL         None        None         
+None          68         THR         None        None         
+None          69         SER         None        None         
+None          70         ALA         None        None         
+None          71         GLU         None        None         
+None          72         VAL         None        None         
+None          73         ILE         None        None         
+None          74         ALA         None        None         
+None          75         GLU         None        None         
+None          76         VAL         None        None         
+None          77         PRO         None        None         
+None          78         TYR         None        None         
+None          79         TRP         None        None         
+None          80         LEU         None        None         
+None          81         THR         None        None         
+None          82         TYR         None        None         
+None          83         ASP         None        None         
+None          84         PHE         None        None         
+None          85         PRO         None        None         
+None          86         PRO         None        None         
+None          87         LYS         None        None         
+None          88         VAL         None        None         
+None          89         ARG         None        None         
+None          90         GLU         None        None         
+None          91         LYS         None        None         
+None          92         LEU         None        None         
+None          93         ASN         None        None         
+None          94         ILE         None        None         
+None          95         GLN         None        None         
+None          96         TRP         None        None         
+None          97         GLY         None        None         
+None          98         SER         None        None         
+None          99         ASP         None        None         
+None          100        TRP         None        None         
+None          101        LYS         None        None         
+None          102        GLY         None        None         
+None          103        GLN         None        None         
+None          104        ALA         None        None         
+None          105        GLN         None        None         
+None          106        LYS         None        None         
+None          107        TRP         None        None         
+None          108        PHE         None        None         
+None          109        LEU         None        None         
+None          110        PHE         None        None         
+None          111        LYS         None        None         
+None          112        PHE         None        None         
+None          113        THR         None        None         
+None          114        GLY         None        None         
+None          115        GLN         None        None         
+None          116        ASP         None        None         
+None          117        GLN         None        None         
+None          118        GLU         None        None         
+None          119        ILE         None        None         
+None          120        ASN         None        None         
+None          121        LEU         None        None         
+None          122        LEU         None        None         
+None          123        GLY         None        None         
+None          124        ASP         None        None         
+None          125        GLY         None        None         
+None          126        SER         None        None         
+None          127        GLU         None        None         
+None          128        LYS         None        None         
+None          129        PRO         None        None         
+None          130        GLU         None        None         
+None          131        PHE         None        None         
+None          132        GLY         None        None         
+None          133        GLU         None        None         
+None          134        TRP         None        None         
+None          135        SER         None        None         
+None          136        TRP         None        None         
+None          137        VAL         None        None         
+None          138        THR         None        None         
+None          139        PRO         None        None         
+None          140        GLU         None        None         
+None          141        GLN         None        None         
+None          142        LEU         None        None         
+None          143        ILE         None        None         
+None          144        ASP         None        None         
+None          145        LEU         None        None         
+None          146        THR         None        None         
+None          147        VAL         None        None         
+None          148        GLU         None        None         
+None          149        PHE         None        None         
+None          150        LYS         None        None         
+None          151        LYS         None        None         
+None          152        PRO         None        None         
+None          153        VAL         None        None         
+None          154        TYR         None        None         
+None          155        LYS         None        None         
+None          156        GLU         None        None         
+None          157        VAL         None        None         
+None          158        LEU         None        None         
+None          159        SER         None        None         
+None          160        VAL         None        None         
+None          161        PHE         None        None         
+None          162        ALA         None        None         
+None          163        PRO         None        None         
+None          164        HIS         None        None         
+None          165        LEU         None        None         
+
+relax> spin.name(name='N', spin_id=None, force=False)
+
+relax> spin.create(spin_name='NE1', spin_num=None, res_name=None, res_num=40, mol_name=None)
+
+relax> spectrum.read_intensities(file='ref_ave.list', dir='..', spectrum_id='ref_ave', dim=1, int_method='height', int_col=None, spin_id_col=None, mol_name_col=None, res_num_col=None, res_name_col=None, spin_num_col=None, spin_name_col=None, sep=None, spin_id=None, ncproc=None)
+Opening the file '../ref_ave.list' for reading.
+Sparky formatted data file.
+
+Number of header lines found: 1
+2D peak list detected.
+RelaxWarning: Cannot find the spin :16@ND2 within the sequence.
+RelaxWarning: Cannot find the spin :16@ND2 within the sequence.
+RelaxWarning: Cannot find the spin :23@ND2 within the sequence.
+RelaxWarning: Cannot find the spin :23@ND2 within the sequence.
+RelaxWarning: Cannot find the spin :55@ND2 within the sequence.
+RelaxWarning: Cannot find the spin :55@ND2 within the sequence.
+RelaxWarning: Cannot find the spin :79@NE1 within the sequence.
+RelaxWarning: Cannot find the spin :95@NE2 within the sequence.
+RelaxWarning: Cannot find the spin :95@NE2 within the sequence.
+RelaxWarning: Cannot find the spin :96@NE1 within the sequence.
+RelaxWarning: Cannot find the spin :100@NE1 within the sequence.
+RelaxWarning: Cannot find the spin :107@NE1 within the sequence.
+RelaxWarning: Cannot find the spin :115@NE2 within the sequence.
+RelaxWarning: Cannot find the spin :115@NE2 within the sequence.
+RelaxWarning: Cannot find the spin :117@NE2 within the sequence.
+RelaxWarning: Cannot find the spin :117@NE2 within the sequence.
+RelaxWarning: Cannot find the spin :120@ND2 within the sequence.
+RelaxWarning: Cannot find the spin :120@ND2 within the sequence.
+RelaxWarning: Cannot find the spin :134@NE1 within the sequence.
+RelaxWarning: Cannot find the spin :136@NE1 within the sequence.
+RelaxWarning: Cannot find the spin :141@NE2 within the sequence.
+RelaxWarning: Cannot find the spin :141@NE2 within the sequence.
+RelaxWarning: Cannot find the spin :332@N within the sequence.
+RelaxWarning: Cannot find the spin :345@N within the sequence.
+RelaxWarning: Cannot find the spin :346@N within the sequence.
+RelaxWarning: Cannot find the spin :358@N within the sequence.
+RelaxWarning: Cannot find the spin :361@N within the sequence.
+RelaxWarning: Cannot find the spin :512@ND2 within the sequence.
+
+The following intensities have been loaded into the relax data store:
+
+# Spin_ID    Intensity    
+:3@N         8100.0       
+:4@N         128550.0     
+:5@N         145939.0     
+:6@N         116774.0     
+:7@N         100286.0     
+:8@N         133748.0     
+:11@N        30180.0      
+:12@N        66692.0      
+:13@N        88333.0      
+:14@N        63223.0      
+:15@N        64764.0      
+:16@N        41196.0      
+:17@N        70011.0      
+:18@N        98474.0      
+:19@N        90679.0      
+:20@N        87408.0      
+:21@N        56634.0      
+:22@N        87605.0      
+:23@N        137544.0     
+:24@N        99356.0      
+:25@N        150660.0     
+:26@N        113814.0     
+:27@N        125809.0     
+:28@N        68010.0      
+:29@N        73465.0      
+:30@N        94523.0      
+:31@N        18090.0      
+:32@N        81327.0      
+:33@N        67953.0      
+:34@N        65629.0      
+:35@N        56443.0      
+:36@N        94636.0      
+:38@N        93497.0      
+:39@N        112609.0     
+:40@N        66100.0      
+:40@NE1      234287.0     
+:41@N        82236.0      
+:42@N        84279.0      
+:44@N        13325.0      
+:45@N        67824.0      
+:46@N        93476.0      
+:47@N        78407.0      
+:48@N        80959.0      
+:49@N        163344.0     
+:50@N        77236.0      
+:51@N        162367.0     
+:52@N        120286.0     
+:54@N        147542.0     
+:55@N        112429.0     
+:56@N        105977.0     
+:57@N        147155.0     
+:58@N        87703.0      
+:59@N        103191.0     
+:60@N        85143.0      
+:61@N        111715.0     
+:62@N        104829.0     
+:63@N        87026.0      
+:64@N        86988.0      
+:65@N        61529.0      
+:66@N        96356.0      
+:67@N        92381.0      
+:68@N        49030.0      
+:69@N        60965.0      
+:70@N        183538.0     
+:71@N        110275.0     
+:72@N        150719.0     
+:73@N        61869.0      
+:74@N        129531.0     
+:75@N        129998.0     
+:76@N        82637.0      
+:78@N        147325.0     
+:79@N        68619.0      
+:80@N        61124.0      
+:81@N        79579.0      
+:82@N        42814.0      
+:83@N        67179.0      
+:84@N        60800.0      
+:87@N        37095.0      
+:88@N        58932.0      
+:89@N        74916.0      
+:90@N        80201.0      
+:91@N        80667.0      
+:92@N        88070.0      
+:93@N        117273.0     
+:94@N        28755.0      
+:95@N        22569.0      
+:97@N        64166.0      
+:98@N        52802.0      
+:99@N        31027.0      
+:100@N       24931.0      
+:101@N       70455.0      
+:102@N       50699.0      
+:103@N       60290.0      
+:104@N       60031.0      
+:105@N       61235.0      
+:106@N       56124.0      
+:107@N       49952.0      
+:108@N       73407.0      
+:109@N       85936.0      
+:110@N       72958.0      
+:111@N       93108.0      
+:112@N       90678.0      
+:113@N       82446.0      
+:114@N       73708.0      
+:115@N       125426.0     
+:116@N       127399.0     
+:117@N       175052.0     
+:118@N       142429.0     
+:119@N       126223.0     
+:120@N       103864.0     
+:121@N       84836.0      
+:122@N       123106.0     
+:123@N       168273.0     
+:124@N       46998.0      
+:125@N       180201.0     
+:126@N       9729.0       
+:127@N       197884.0     
+:128@N       153846.0     
+:130@N       85882.0      
+:131@N       91457.0      
+:132@N       58530.0      
+:133@N       121840.0     
+:134@N       133081.0     
+:135@N       95091.0      
+:136@N       140948.0     
+:137@N       79711.0      
+:138@N       102708.0     
+:140@N       127375.0     
+:141@N       84680.0      
+:142@N       102738.0     
+:143@N       83618.0      
+:144@N       121376.0     
+:145@N       99236.0      
+:146@N       95276.0      
+:147@N       50710.0      
+:148@N       81041.0      
+:149@N       53475.0      
+:150@N       51043.0      
+:151@N       75088.0      
+:153@N       75952.0      
+:154@N       63695.0      
+:155@N       93142.0      
+:156@N       114158.0     
+:157@N       85102.0      
+:158@N       68608.0      
+:159@N       106652.0     
+:160@N       95964.0      
+:161@N       97266.0      
+:162@N       146451.0     
+:164@N       115190.0     
+:165@N       131413.0     
+
+
+relax> spectrum.read_intensities(file='sat_ave.list', dir='..', spectrum_id='sat_ave', dim=1, int_method='height', int_col=None, spin_id_col=None, mol_name_col=None, res_num_col=None, res_name_col=None, spin_num_col=None, spin_name_col=None, sep=None, spin_id=None, ncproc=None)
+Opening the file '../sat_ave.list' for reading.
+Sparky formatted data file.
+
+Number of header lines found: 1
+2D peak list detected.
+RelaxWarning: Cannot find the spin :16@ND2 within the sequence.
+RelaxWarning: Cannot find the spin :16@ND2 within the sequence.
+RelaxWarning: Cannot find the spin :23@ND2 within the sequence.
+RelaxWarning: Cannot find the spin :23@ND2 within the sequence.
+RelaxWarning: Cannot find the spin :55@ND2 within the sequence.
+RelaxWarning: Cannot find the spin :55@ND2 within the sequence.
+RelaxWarning: Cannot find the spin :79@NE1 within the sequence.
+RelaxWarning: Cannot find the spin :95@NE2 within the sequence.
+RelaxWarning: Cannot find the spin :95@NE2 within the sequence.
+RelaxWarning: Cannot find the spin :96@NE1 within the sequence.
+RelaxWarning: Cannot find the spin :100@NE1 within the sequence.
+RelaxWarning: Cannot find the spin :107@NE1 within the sequence.
+RelaxWarning: Cannot find the spin :115@NE2 within the sequence.
+RelaxWarning: Cannot find the spin :115@NE2 within the sequence.
+RelaxWarning: Cannot find the spin :117@NE2 within the sequence.
+RelaxWarning: Cannot find the spin :117@NE2 within the sequence.
+RelaxWarning: Cannot find the spin :120@ND2 within the sequence.
+RelaxWarning: Cannot find the spin :120@ND2 within the sequence.
+RelaxWarning: Cannot find the spin :134@NE1 within the sequence.
+RelaxWarning: Cannot find the spin :136@NE1 within the sequence.
+RelaxWarning: Cannot find the spin :141@NE2 within the sequence.
+RelaxWarning: Cannot find the spin :141@NE2 within the sequence.
+RelaxWarning: Cannot find the spin :332@N within the sequence.
+RelaxWarning: Cannot find the spin :345@N within the sequence.
+RelaxWarning: Cannot find the spin :346@N within the sequence.
+RelaxWarning: Cannot find the spin :358@N within the sequence.
+RelaxWarning: Cannot find the spin :361@N within the sequence.
+RelaxWarning: Cannot find the spin :512@ND2 within the sequence.
+
+The following intensities have been loaded into the relax data store:
+
+# Spin_ID    Intensity    
+:3@N         217.0        
+:4@N         15840.0      
+:5@N         61285.0      
+:6@N         52335.0      
+:7@N         60778.0      
+:8@N         85501.0      
+:11@N        24907.0      
+:12@N        62337.0      
+:13@N        78321.0      
+:14@N        53889.0      
+:15@N        47088.0      
+:16@N        44161.0      
+:17@N        55573.0      
+:18@N        90830.0      
+:19@N        82499.0      
+:20@N        74449.0      
+:21@N        47506.0      
+:22@N        81823.0      
+:23@N        105777.0     
+:24@N        88639.0      
+:25@N        129701.0     
+:26@N        85013.0      
+:27@N        105147.0     
+:28@N        64940.0      
+:29@N        62345.0      
+:30@N        84052.0      
+:31@N        13175.0      
+:32@N        73337.0      
+:33@N        56390.0      
+:34@N        49563.0      
+:35@N        42692.0      
+:36@N        72115.0      
+:38@N        67832.0      
+:39@N        81717.0      
+:40@N        49580.0      
+:40@NE1      177548.0     
+:41@N        75721.0      
+:42@N        63570.0      
+:44@N        11280.0      
+:45@N        65005.0      
+:46@N        74197.0      
+:47@N        58820.0      
+:48@N        68611.0      
+:49@N        131514.0     
+:50@N        59527.0      
+:51@N        137344.0     
+:52@N        94707.0      
+:54@N        116940.0     
+:55@N        91522.0      
+:56@N        95499.0      
+:57@N        128540.0     
+:58@N        76221.0      
+:59@N        95749.0      
+:60@N        77281.0      
+:61@N        101222.0     
+:62@N        86011.0      
+:63@N        78515.0      
+:64@N        79284.0      
+:65@N        55873.0      
+:66@N        82338.0      
+:67@N        87536.0      
+:68@N        44116.0      
+:69@N        56996.0      
+:70@N        158651.0     
+:71@N        100637.0     
+:72@N        116474.0     
+:73@N        51612.0      
+:74@N        106957.0     
+:75@N        114327.0     
+:76@N        70887.0      
+:78@N        118882.0     
+:79@N        53277.0      
+:80@N        51287.0      
+:81@N        66619.0      
+:82@N        39497.0      
+:83@N        57344.0      
+:84@N        53597.0      
+:87@N        35508.0      
+:88@N        40434.0      
+:89@N        54567.0      
+:90@N        56308.0      
+:91@N        45034.0      
+:92@N        69986.0      
+:93@N        84796.0      
+:94@N        17790.0      
+:95@N        11173.0      
+:97@N        48920.0      
+:98@N        36767.0      
+:99@N        17296.0      
+:100@N       8696.0       
+:101@N       55628.0      
+:102@N       45095.0      
+:103@N       53436.0      
+:104@N       52648.0      
+:105@N       50617.0      
+:106@N       51361.0      
+:107@N       44013.0      
+:108@N       71492.0      
+:109@N       75503.0      
+:110@N       70614.0      
+:111@N       77937.0      
+:112@N       78797.0      
+:113@N       68353.0      
+:114@N       52788.0      
+:115@N       107122.0     
+:116@N       110432.0     
+:117@N       133449.0     
+:118@N       127486.0     
+:119@N       108186.0     
+:120@N       90039.0      
+:121@N       64232.0      
+:122@N       105012.0     
+:123@N       97285.0      
+:124@N       16685.0      
+:125@N       119919.0     
+:126@N       7595.0       
+:127@N       121897.0     
+:128@N       87186.0      
+:130@N       57252.0      
+:131@N       72292.0      
+:132@N       52587.0      
+:133@N       81891.0      
+:134@N       117763.0     
+:135@N       88323.0      
+:136@N       127990.0     
+:137@N       75828.0      
+:138@N       90291.0      
+:140@N       104530.0     
+:141@N       58849.0      
+:142@N       91385.0      
+:143@N       74313.0      
+:144@N       110552.0     
+:145@N       76418.0      
+:146@N       72788.0      
+:147@N       42720.0      
+:148@N       67707.0      
+:149@N       42556.0      
+:150@N       48145.0      
+:151@N       63182.0      
+:153@N       57836.0      
+:154@N       49970.0      
+:155@N       85563.0      
+:156@N       98170.0      
+:157@N       79474.0      
+:158@N       70045.0      
+:159@N       103423.0     
+:160@N       78842.0      
+:161@N       91789.0      
+:162@N       133439.0     
+:164@N       95947.0      
+:165@N       103260.0     
+
+
+relax> noe.spectrum_type(spectrum_type='ref', spectrum_id='ref_ave')
+
+relax> noe.spectrum_type(spectrum_type='sat', spectrum_id='sat_ave')
+
+relax> spectrum.baseplane_rmsd(error=3200, spectrum_id='ref_ave', spin_id=None)
+
+relax> spectrum.baseplane_rmsd(error=2600, spectrum_id='sat_ave', spin_id=None)
+
+relax> spectrum.baseplane_rmsd(error=15000, spectrum_id='ref_ave', spin_id=':114')
+
+relax> spectrum.baseplane_rmsd(error=2400, spectrum_id='sat_ave', spin_id=':114')
+
+relax> deselect.read(file='unresolved', dir='..', spin_id_col=None, mol_name_col=None, res_num_col=1, res_name_col=None, spin_num_col=None, spin_name_col=None, sep=None, spin_id=None, boolean='AND', change_all=False)
+Opening the file '../unresolved' for reading.
+RelaxWarning: Cannot find the spin :332 within the sequence.
+RelaxWarning: Cannot find the spin :345 within the sequence.
+RelaxWarning: Cannot find the spin :346 within the sequence.
+RelaxWarning: Cannot find the spin :358 within the sequence.
+RelaxWarning: Cannot find the spin :361 within the sequence.
+The following spins were deselected:
+:3@N
+:11@N
+:19@N
+:23@N
+:31@N
+:42@N
+:44@N
+:54@N
+:82@N
+:92@N
+:94@N
+:99@N
+:101@N
+:124@N
+:126@N
+:136@N
+:141@N
+:145@N
+:147@N
+
+relax> spectrum.error_analysis(subset=None)
+Intensity measure:  Peak heights.
+Replicated spectra:  No.
+
+relax> minimise.calculate(verbosity=1)
+
+Over-fit spin deselection:
+RelaxWarning: The spin ':1@N' has been deselected because of the absence of intensity data.
+RelaxWarning: The spin ':2@N' has been deselected because of the absence of intensity data.
+RelaxWarning: The spin ':9@N' has been deselected because of the absence of intensity data.
+RelaxWarning: The spin ':10@N' has been deselected because of the absence of intensity data.
+RelaxWarning: The spin ':37@N' has been deselected because of the absence of intensity data.
+RelaxWarning: The spin ':43@N' has been deselected because of the absence of intensity data.
+RelaxWarning: The spin ':53@N' has been deselected because of the absence of intensity data.
+RelaxWarning: The spin ':77@N' has been deselected because of the absence of intensity data.
+RelaxWarning: The spin ':85@N' has been deselected because of the absence of intensity data.
+RelaxWarning: The spin ':86@N' has been deselected because of the absence of intensity data.
+RelaxWarning: The spin ':96@N' has been deselected because of the absence of intensity data.
+RelaxWarning: The spin ':129@N' has been deselected because of the absence of intensity data.
+RelaxWarning: The spin ':139@N' has been deselected because of the absence of intensity data.
+RelaxWarning: The spin ':152@N' has been deselected because of the absence of intensity data.
+RelaxWarning: The spin ':163@N' has been deselected because of the absence of intensity data.
+
+relax> value.write(param='noe', file='noe.out', dir='.', scaling=1.0, comment=None, bc=False, force=True)
+Opening the file './noe.out' for writing.
+
+relax> results.write(file='results', dir='.', compress_type=1, force=True)
+Opening the file './results.bz2' for writing.
+
+relax> grace.write(x_data_type='res_num', y_data_type='peak_intensity', spin_id=None, plot_data='value', norm_type='first', file='intensities.agr', dir='./grace', force=True, norm=False)
+Opening the file './grace/intensities.agr' for writing.
+
+relax> grace.write(x_data_type='res_num', y_data_type='noe', spin_id=None, plot_data='value', norm_type='first', file='noe.agr', dir='./grace', force=True, norm=False)
+Opening the file './grace/noe.agr' for writing.
+
+Creating the Python "grace to PNG/EPS/SVG..." conversion script.
+Opening the file './grace/grace2images.py' for writing.
+
+relax> state.save(state='state', dir='.', compress_type=1, force=True)
+Opening the file './state.bz2' for writing.
+
