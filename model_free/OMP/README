@@ -1,0 +1,56 @@
+###############################################################################
+#                                                                             #
+# Copyright (C) 2017 Edward d'Auvergne                                        #
+#                                                                             #
+# This program is free software; you can redistribute it and/or modify        #
+# it under the terms of the GNU General Public License as published by        #
+# the Free Software Foundation, either version 3 of the License, or           #
+# (at your option) any later version.                                         #
+#                                                                             #
+# This program is distributed in the hope that it will be useful,             #
+# but WITHOUT ANY WARRANTY; without even the implied warranty of              #
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the               #
+# GNU Library General Public License for more details.                        #
+#                                                                             #
+# You should have received a copy of the GNU General Public License           #
+# along with this program; if not, write to the Free Software                 #
+#                                                                             #
+###############################################################################
+
+
+Licencing
+=========
+
+These files are licensed under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version:
+
+1F35_H.pdb:                                                                             Copyright (C) 2006 Edward d'Auvergne
+rates.txt:                                                                              Copyright (C) 2006 Edward d'Auvergne
+
+
+OMP model-free analysis
+=======================
+
+This directory contains the 600 MHz and 800 MHz base R1, R2, and NOE data for the olfactory marker protein (OMP) from the supplementary information of:
+
+    Gitti, R. K., Wright, N. T., Margolis, J. W., Varney, K. M., Weber, D. J., and Margolis, F. L. (2005). Backbone dynamics of the olfactory marker protein as studied by 15N NMR relaxation measurements. Biochemistry, 44(28), 9673-9679.
+
+To mirror the original analysis, values of -160 ppm and 1.02 Angstrom should be used for the CSA and amide NH bond length respectively.
+
+
+
+Pre-calculated results
+----------------------
+
+The "analysis/" directory contains the results of an analysis using the relax scripting interface.  This can be used for comparison.
+
+
+Analysis
+--------
+
+The steps of the analysis to implement in the prompt, script, or GUI user interfaces are:
+
+    - Load the '@N' and '@H' spins from the '1F35_H.pdb' file.
+    - Read the 600 MHz and 800 MHz R1, R2, and NOE data from the 'rates.txt' file.
+    - Define the magnetic dipole-dipole interaction, using a bond length of 1.02 Angstrom.
+    - Define the CSA value to be -160 ppm.
+    - Use the 'dauvergne_protocol' to perform a model-free analysis.
