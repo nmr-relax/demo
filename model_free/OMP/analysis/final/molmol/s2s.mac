@@ -1,0 +1,1760 @@
+SelectBond ''
+StyleBond invisible
+SelectBond 'bb'
+StyleBond line
+ColorBond 0 0 0
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 8'
+StyleBond neon
+RadiusBond 0.47222202361583987
+ColorBond 1.0 0.58352638628111975 0.0
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 8'
+StyleBond neon
+RadiusBond 0.47222202361583987
+ColorBond 1.0 0.58352638628111975 0.0
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 9'
+StyleBond neon
+RadiusBond 0.47222202361583987
+ColorBond 1.0 0.58352638628111975 0.0
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 9'
+StyleBond neon
+RadiusBond 0.28594345043190383
+ColorBond 1.0 0.73449746377932179 0.0
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 9'
+StyleBond neon
+RadiusBond 0.28594345043190383
+ColorBond 1.0 0.73449746377932179 0.0
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 10'
+StyleBond neon
+RadiusBond 0.28594345043190383
+ColorBond 1.0 0.73449746377932179 0.0
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 10'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 10'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 11'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 11'
+StyleBond neon
+RadiusBond 0.18397314474090543
+ColorBond 1.0 0.82448838475555919 0.0
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 11'
+StyleBond neon
+RadiusBond 0.18397314474090543
+ColorBond 1.0 0.82448838475555919 0.0
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 12'
+StyleBond neon
+RadiusBond 0.18397314474090543
+ColorBond 1.0 0.82448838475555919 0.0
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 12'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 12'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 13'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 14'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 14'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 15'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 15'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 15'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 16'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 16'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 16'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 17'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 17'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 17'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 18'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 18'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 18'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 19'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 19'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 19'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 20'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 20'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 20'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 21'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 21'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 21'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 22'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 22'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 22'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 23'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 23'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 23'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 24'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 24'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 24'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 25'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 25'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 25'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 26'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 26'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 26'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 27'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 27'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 27'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 28'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 28'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 28'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 29'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 29'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 29'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 30'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 30'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 30'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 31'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 31'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 31'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 32'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 32'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 32'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 33'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 34'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 34'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 35'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 35'
+StyleBond neon
+RadiusBond 0.4257201369819805
+ColorBond 1.0 0.61958927177600853 0.0
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 35'
+StyleBond neon
+RadiusBond 0.4257201369819805
+ColorBond 1.0 0.61958927177600853 0.0
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 36'
+StyleBond neon
+RadiusBond 0.4257201369819805
+ColorBond 1.0 0.61958927177600853 0.0
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 36'
+StyleBond neon
+RadiusBond 0.4550681308995279
+ColorBond 1.0 0.59670362004056965 0.0
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 36'
+StyleBond neon
+RadiusBond 0.4550681308995279
+ColorBond 1.0 0.59670362004056965 0.0
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 37'
+StyleBond neon
+RadiusBond 0.4550681308995279
+ColorBond 1.0 0.59670362004056965 0.0
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 37'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 37'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 38'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 38'
+StyleBond neon
+RadiusBond 1.0753909426122399
+ColorBond 1.0 0.21372547725087049 0.0
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 38'
+StyleBond neon
+RadiusBond 1.0753909426122399
+ColorBond 1.0 0.21372547725087049 0.0
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 39'
+StyleBond neon
+RadiusBond 1.0753909426122399
+ColorBond 1.0 0.21372547725087049 0.0
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 39'
+StyleBond neon
+RadiusBond 1.0681043750006363
+ColorBond 1.0 0.21710736397323865 0.0
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 39'
+StyleBond neon
+RadiusBond 1.0681043750006363
+ColorBond 1.0 0.21710736397323865 0.0
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 40'
+StyleBond neon
+RadiusBond 1.0681043750006363
+ColorBond 1.0 0.21710736397323865 0.0
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 40'
+StyleBond neon
+RadiusBond 0.542868426788998
+ColorBond 1.0 0.53080810541209245 0.0
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 40'
+StyleBond neon
+RadiusBond 0.542868426788998
+ColorBond 1.0 0.53080810541209245 0.0
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 41'
+StyleBond neon
+RadiusBond 0.542868426788998
+ColorBond 1.0 0.53080810541209245 0.0
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 42'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 42'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 43'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 43'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 43'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 44'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 44'
+StyleBond neon
+RadiusBond 0.31429464993962775
+ColorBond 1.0 0.71040063180554047 0.0
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 44'
+StyleBond neon
+RadiusBond 0.31429464993962775
+ColorBond 1.0 0.71040063180554047 0.0
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 45'
+StyleBond neon
+RadiusBond 0.31429464993962775
+ColorBond 1.0 0.71040063180554047 0.0
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 45'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 45'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 46'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 46'
+StyleBond neon
+RadiusBond 0.2939461556232448
+ColorBond 1.0 0.72765492997817649 0.0
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 46'
+StyleBond neon
+RadiusBond 0.2939461556232448
+ColorBond 1.0 0.72765492997817649 0.0
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 47'
+StyleBond neon
+RadiusBond 0.2939461556232448
+ColorBond 1.0 0.72765492997817649 0.0
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 48'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 48'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 49'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 49'
+StyleBond neon
+RadiusBond 0.3153385316322821
+ColorBond 1.0 0.70952106575071883 0.0
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 49'
+StyleBond neon
+RadiusBond 0.3153385316322821
+ColorBond 1.0 0.70952106575071883 0.0
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 50'
+StyleBond neon
+RadiusBond 0.3153385316322821
+ColorBond 1.0 0.70952106575071883 0.0
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 50'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 50'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 51'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 52'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 52'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 53'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 53'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 53'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 54'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 54'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 54'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 55'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 55'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 55'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 56'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 56'
+StyleBond neon
+RadiusBond 0.3402696514191723
+ColorBond 1.0 0.68867620750005887 0.0
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 56'
+StyleBond neon
+RadiusBond 0.3402696514191723
+ColorBond 1.0 0.68867620750005887 0.0
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 57'
+StyleBond neon
+RadiusBond 0.3402696514191723
+ColorBond 1.0 0.68867620750005887 0.0
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 57'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 57'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 58'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 58'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 58'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 59'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 59'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 59'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 60'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 61'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 61'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 62'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 62'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 62'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 63'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 63'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 63'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 64'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 64'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 64'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 65'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 65'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 65'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 66'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 66'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 66'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 67'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 67'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 67'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 68'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 68'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 68'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 69'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 69'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 69'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 70'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 70'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 70'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 71'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 71'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 71'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 72'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 72'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 72'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 73'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 73'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 73'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 74'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 75'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 75'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 76'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 76'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 76'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 77'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 77'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 77'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 78'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 78'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 78'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 79'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 79'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 79'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 80'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 80'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 80'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 81'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 81'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 81'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 82'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 82'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 82'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 83'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 83'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 83'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 84'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 85'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 85'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 86'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 86'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 86'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 87'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 89'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 89'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 90'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 90'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 90'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 91'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 91'
+StyleBond neon
+RadiusBond 0.4740599476762293
+ColorBond 1.0 0.58212326082146804 0.0
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 91'
+StyleBond neon
+RadiusBond 0.4740599476762293
+ColorBond 1.0 0.58212326082146804 0.0
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 92'
+StyleBond neon
+RadiusBond 0.4740599476762293
+ColorBond 1.0 0.58212326082146804 0.0
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 93'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 93'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 94'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 94'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 94'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 95'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 95'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 95'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 96'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 96'
+StyleBond neon
+RadiusBond 0.5642422208508073
+ColorBond 1.0 0.51535010009685556 0.0
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 96'
+StyleBond neon
+RadiusBond 0.5642422208508073
+ColorBond 1.0 0.51535010009685556 0.0
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 97'
+StyleBond neon
+RadiusBond 0.5642422208508073
+ColorBond 1.0 0.51535010009685556 0.0
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 97'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 97'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 98'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 98'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 98'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 99'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 99'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 99'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 100'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 100'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 100'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 101'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 102'
+StyleBond neon
+RadiusBond 0.31687152597831614
+ColorBond 1.0 0.70823036501564052 0.0
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 102'
+StyleBond neon
+RadiusBond 0.31687152597831614
+ColorBond 1.0 0.70823036501564052 0.0
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 103'
+StyleBond neon
+RadiusBond 0.31687152597831614
+ColorBond 1.0 0.70823036501564052 0.0
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 103'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 103'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 104'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 104'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 104'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 105'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 105'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 105'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 106'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 106'
+StyleBond neon
+RadiusBond 0.1899290274897163
+ColorBond 1.0 0.81908923138108092 0.0
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 106'
+StyleBond neon
+RadiusBond 0.1899290274897163
+ColorBond 1.0 0.81908923138108092 0.0
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 107'
+StyleBond neon
+RadiusBond 0.1899290274897163
+ColorBond 1.0 0.81908923138108092 0.0
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 107'
+StyleBond neon
+RadiusBond 0.2519916971137799
+ColorBond 1.0 0.76388325673979085 0.0
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 107'
+StyleBond neon
+RadiusBond 0.2519916971137799
+ColorBond 1.0 0.76388325673979085 0.0
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 108'
+StyleBond neon
+RadiusBond 0.2519916971137799
+ColorBond 1.0 0.76388325673979085 0.0
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 108'
+StyleBond neon
+RadiusBond 0.22697267413181943
+ColorBond 1.0 0.7859064745688179 0.0
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 108'
+StyleBond neon
+RadiusBond 0.22697267413181943
+ColorBond 1.0 0.7859064745688179 0.0
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 109'
+StyleBond neon
+RadiusBond 0.22697267413181943
+ColorBond 1.0 0.7859064745688179 0.0
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 109'
+StyleBond neon
+RadiusBond 0.2535014065911714
+ColorBond 1.0 0.76256433419475422 0.0
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 109'
+StyleBond neon
+RadiusBond 0.2535014065911714
+ColorBond 1.0 0.76256433419475422 0.0
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 110'
+StyleBond neon
+RadiusBond 0.2535014065911714
+ColorBond 1.0 0.76256433419475422 0.0
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 110'
+StyleBond neon
+RadiusBond 0.3395755076618059
+ColorBond 1.0 0.6892523736891375 0.0
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 110'
+StyleBond neon
+RadiusBond 0.3395755076618059
+ColorBond 1.0 0.6892523736891375 0.0
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 111'
+StyleBond neon
+RadiusBond 0.3395755076618059
+ColorBond 1.0 0.6892523736891375 0.0
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 112'
+StyleBond neon
+RadiusBond 0.47664523491028876
+ColorBond 1.0 0.58015243508038228 0.0
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 112'
+StyleBond neon
+RadiusBond 0.47664523491028876
+ColorBond 1.0 0.58015243508038228 0.0
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 113'
+StyleBond neon
+RadiusBond 0.47664523491028876
+ColorBond 1.0 0.58015243508038228 0.0
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 113'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 113'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 114'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 114'
+StyleBond neon
+RadiusBond 0.33370042572905323
+ColorBond 1.0 0.69413856780388472 0.0
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 114'
+StyleBond neon
+RadiusBond 0.33370042572905323
+ColorBond 1.0 0.69413856780388472 0.0
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 115'
+StyleBond neon
+RadiusBond 0.33370042572905323
+ColorBond 1.0 0.69413856780388472 0.0
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 115'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 115'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 116'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 118'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 118'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 119'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 120'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 120'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 121'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 122'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 122'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 123'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 123'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 123'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 124'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 124'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 124'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 125'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 125'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 125'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 126'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 126'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 126'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 127'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 128'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 128'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 129'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 129'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 129'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 130'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 130'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 130'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 131'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 131'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 131'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 132'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 132'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 132'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 133'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 133'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 133'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 134'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 134'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 134'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 135'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 135'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 135'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 136'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 136'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 136'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 137'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 137'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 137'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 138'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 138'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 138'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 139'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 139'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 139'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 140'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 140'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 140'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 141'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 141'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 141'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 142'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 142'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 142'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 143'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 143'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 143'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 144'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 144'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 144'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 145'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 145'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 145'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 146'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 146'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 146'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 147'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 147'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 147'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 148'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 148'
+StyleBond neon
+RadiusBond 0.23955727055008147
+ColorBond 1.0 0.77478965091826968 0.0
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 148'
+StyleBond neon
+RadiusBond 0.23955727055008147
+ColorBond 1.0 0.77478965091826968 0.0
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 149'
+StyleBond neon
+RadiusBond 0.23955727055008147
+ColorBond 1.0 0.77478965091826968 0.0
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 149'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 149'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 150'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 151'
+StyleBond neon
+RadiusBond 0.27307796907583604
+ColorBond 1.0 0.74556492522280982 0.0
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 151'
+StyleBond neon
+RadiusBond 0.27307796907583604
+ColorBond 1.0 0.74556492522280982 0.0
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 152'
+StyleBond neon
+RadiusBond 0.27307796907583604
+ColorBond 1.0 0.74556492522280982 0.0
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 152'
+StyleBond neon
+RadiusBond 0.3632382235125986
+ColorBond 1.0 0.66974727824254854 0.0
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 152'
+StyleBond neon
+RadiusBond 0.3632382235125986
+ColorBond 1.0 0.66974727824254854 0.0
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 153'
+StyleBond neon
+RadiusBond 0.3632382235125986
+ColorBond 1.0 0.66974727824254854 0.0
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 153'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 153'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 154'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 154'
+StyleBond neon
+RadiusBond 0.587535250143991
+ColorBond 1.0 0.49876416739644946 0.0
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 154'
+StyleBond neon
+RadiusBond 0.587535250143991
+ColorBond 1.0 0.49876416739644946 0.0
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 155'
+StyleBond neon
+RadiusBond 0.587535250143991
+ColorBond 1.0 0.49876416739644946 0.0
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 155'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 155'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 156'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 156'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 156'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 157'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 157'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 157'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 158'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 158'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 158'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 159'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 159'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 159'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 160'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 160'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 160'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 161'
+StyleBond neon
+RadiusBond 0.3
+ColorBond 1 1 1
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 161'
+StyleBond neon
+RadiusBond 0.3925926514662843
+ColorBond 1.0 0.64593959603004758 0.0
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 161'
+StyleBond neon
+RadiusBond 0.3925926514662843
+ColorBond 1.0 0.64593959603004758 0.0
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 162'
+StyleBond neon
+RadiusBond 0.3925926514662843
+ColorBond 1.0 0.64593959603004758 0.0
+

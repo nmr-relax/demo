@@ -1,0 +1,31 @@
+SelectBond ''
+StyleBond invisible
+SelectBond 'bb'
+StyleBond line
+ColorBond 0 0 0
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 38'
+StyleBond neon
+RadiusBond 0.8485681059298618
+ColorBond 0.14450470270580232 0.50547860149679058 0.89406826574554732
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 38'
+StyleBond neon
+RadiusBond 0.8485681059298618
+ColorBond 0.14450470270580232 0.50547860149679058 0.89406826574554732
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 39'
+StyleBond neon
+RadiusBond 0.8485681059298618
+ColorBond 0.14450470270580232 0.50547860149679058 0.89406826574554732
+
+SelectBond 'atom1.name = "CA"  & atom2.name = "C" & res.num = 39'
+StyleBond neon
+RadiusBond 0.9218901259477501
+ColorBond 0.13530278919355737 0.47329023470893772 0.90081389158719294
+SelectBond 'atom1.name = "C"  & atom2.name = "N" & res.num = 39'
+StyleBond neon
+RadiusBond 0.9218901259477501
+ColorBond 0.13530278919355737 0.47329023470893772 0.90081389158719294
+SelectBond 'atom1.name = "N"  & atom2.name = "CA" & res.num = 40'
+StyleBond neon
+RadiusBond 0.9218901259477501
+ColorBond 0.13530278919355737 0.47329023470893772 0.90081389158719294
+
