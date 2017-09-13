@@ -1,0 +1,55 @@
+###############################################################################
+#                                                                             #
+# Copyright (C) 2017 Edward d'Auvergne                                        #
+#                                                                             #
+# This program is free software; you can redistribute it and/or modify        #
+# it under the terms of the GNU General Public License as published by        #
+# the Free Software Foundation, either version 3 of the License, or           #
+# (at your option) any later version.                                         #
+#                                                                             #
+# This program is distributed in the hope that it will be useful,             #
+# but WITHOUT ANY WARRANTY; without even the implied warranty of              #
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the               #
+# GNU Library General Public License for more details.                        #
+#                                                                             #
+# You should have received a copy of the GNU General Public License           #
+# along with this program; if not, write to the Free Software                 #
+#                                                                             #
+###############################################################################
+
+
+Licencing
+=========
+
+These files are licensed under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version:
+
+Ap4Aase.seq:                                                                            Copyright (C) 2006 Edward d'Auvergne
+ref_ave.list:                                                                           Copyright (C) 2006 Edward d'Auvergne
+sat_ave.list:                                                                           Copyright (C) 2006 Edward d'Auvergne
+unresolved:                                                                             Copyright (C) 2006 Edward d'Auvergne
+
+
+Steady-state NOE analysis
+=========================
+
+This directory contains the 600MHz base data from the protein Ap4Aase required for performing a steady-state NOE analysis.
+
+
+Pre-calculated results
+----------------------
+
+The "analysis/" directory contains the results of an analysis using the relax scripting interface.  This can be used for comparison.
+
+
+Analysis
+--------
+
+The steps of the analysis to implement in the prompt, script, or GUI user interfaces are:
+
+    - Load the sequence data from the 'Ap4Aase.seq' file.
+    - Create a 'NE1' spin system for the tryptophan 40 indole system.
+    - Load the Sparky peak lists 'ref_ave.list' and 'sat_ave.list' and set them to be the reference and saturated spectra respectively.
+    - Set the baseplane RMSD errors to 3200 and 2600 for the reference and saturated spectra respectively.
+    - Set the baseplane RMSD errors for residue 114 to 15000 and 2400 for the reference and saturated spectra respectively (this peak is close to the water signal).
+    - Deselect the residues in the 'unresolved' file.
+    - Calculate the NOE.
