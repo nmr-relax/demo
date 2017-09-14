@@ -1,0 +1,165 @@
+@version 50121
+@page size 842, 595
+@with g0
+@    view 0.15, 0.15, 1.28, 0.85
+@    title "Relaxation dispersion plot for: 4GLY @N"
+@    subtitle "Interpolated through Spin-lock field strength \xw\B\s1\N"
+@    xaxis  type zero true
+@    xaxis  label "\qCPMG pulse train frequency \xn\B\sCPMG\N\Q (Hz)"
+@    xaxis  label char size 1.00
+@    xaxis  tick major size 0.50
+@    xaxis  tick major linewidth 0.5
+@    xaxis  tick minor linewidth 0.5
+@    xaxis  tick minor size 0.25
+@    xaxis  ticklabel char size 0.70
+@    yaxis  label "SQ CPMG - \qR\s2,eff\N\Q (rad.s\S-1\N)"
+@    yaxis  label char size 1.00
+@    yaxis  tick major size 0.50
+@    yaxis  tick major linewidth 0.5
+@    yaxis  tick minor linewidth 0.5
+@    yaxis  tick minor size 0.25
+@    yaxis  ticklabel char size 0.70
+@    legend on
+@    legend box fill pattern 0
+@    legend char size 0.8
+@    frame linewidth 0.5
+@    s0 symbol 1
+@    s0 symbol size 0.45
+@    s0 symbol linewidth 0.5
+@    s0 symbol color 4
+@    s0 symbol fill color 4
+@    s0 errorbar size 0.5
+@    s0 errorbar linewidth 0.5
+@    s0 errorbar riser linewidth 0.5
+@    s0 line linestyle 0
+@    s0 line type 0
+@    s0 line color 4
+@    s0 fill color 4
+@    s0 avalue color 4
+@    s0 errorbar color 4
+@    s0 legend "R\s2eff\N (500.0 MHz, 0.000 ppm)"
+@    s1 symbol 1
+@    s1 symbol size 0.45
+@    s1 symbol linewidth 0.5
+@    s1 symbol color 15
+@    s1 symbol fill color 15
+@    s1 errorbar size 0.5
+@    s1 errorbar linewidth 0.5
+@    s1 errorbar riser linewidth 0.5
+@    s1 line linestyle 0
+@    s1 line type 0
+@    s1 line color 15
+@    s1 fill color 15
+@    s1 avalue color 15
+@    s1 errorbar color 15
+@    s1 legend "R\s2eff\N (800.0 MHz, 0.000 ppm)"
+@    s2 symbol 4
+@    s2 symbol size 0.45
+@    s2 symbol linewidth 0.5
+@    s2 symbol color 4
+@    s2 symbol fill color 4
+@    s2 errorbar size 0.5
+@    s2 errorbar linewidth 0.5
+@    s2 errorbar riser linewidth 0.5
+@    s2 line linestyle 1
+@    s2 line type 1
+@    s2 line color 4
+@    s2 fill color 4
+@    s2 avalue color 4
+@    s2 errorbar color 4
+@    s2 legend "Back calculated R\s2eff\N (500.0 MHz, 0.000 ppm)"
+@    s3 symbol 4
+@    s3 symbol size 0.45
+@    s3 symbol linewidth 0.5
+@    s3 symbol color 15
+@    s3 symbol fill color 15
+@    s3 errorbar size 0.5
+@    s3 errorbar linewidth 0.5
+@    s3 errorbar riser linewidth 0.5
+@    s3 line linestyle 1
+@    s3 line type 1
+@    s3 line color 15
+@    s3 fill color 15
+@    s3 avalue color 15
+@    s3 errorbar color 15
+@    s3 legend "Back calculated R\s2eff\N (800.0 MHz, 0.000 ppm)"
+@    s4 symbol 9
+@    s4 symbol size 0.45
+@    s4 symbol linewidth 0.5
+@    s4 symbol color 4
+@    s4 symbol fill color 4
+@    s4 errorbar size 0.5
+@    s4 errorbar linewidth 0.5
+@    s4 errorbar riser linewidth 0.5
+@    s4 line linestyle 3
+@    s4 line type 1
+@    s4 line color 4
+@    s4 fill color 4
+@    s4 avalue color 4
+@    s4 errorbar color 4
+@    s4 legend "Residuals (500.0 MHz, 0.000 ppm)"
+@    s5 symbol 9
+@    s5 symbol size 0.45
+@    s5 symbol linewidth 0.5
+@    s5 symbol color 15
+@    s5 symbol fill color 15
+@    s5 errorbar size 0.5
+@    s5 errorbar linewidth 0.5
+@    s5 errorbar riser linewidth 0.5
+@    s5 line linestyle 3
+@    s5 line type 1
+@    s5 line color 15
+@    s5 fill color 15
+@    s5 avalue color 15
+@    s5 errorbar color 15
+@    s5 legend "Residuals (800.0 MHz, 0.000 ppm)"
+@target G0.S0
+@type xydy
+            66.666600000000003              1.661723254852007              0.117905971687095
+           133.333300000000008              1.600555642936541              0.117792556372391
+           200.000000000000000              1.543721018904033              0.117687450124042
+           266.666600000000017              1.673811893928095              0.117928422471787
+           333.333300000000008              1.626415109065581              0.117840466819348
+           400.000000000000000              1.529515341459424              0.117661220382406
+           466.666600000000017              1.547026710613291              0.117693556209615
+           533.333300000000008              1.679929731279022              0.117939788977420
+           600.000000000000000              1.561674294802164              0.117720623155953
+           666.666600000000017              1.620773769118137              0.117830010296509
+           733.333300000000008              1.571036069747559              0.117737931774407
+           800.000000000000000              1.604061133896970              0.117799047865139
+           866.666600000000017              1.626704850884435              0.117841003941687
+           933.333300000000008              1.611016721544644              0.117811931254601
+          1000.000000000000000              1.578158834408230              0.117751105583183
+&
+@target G0.S1
+@type xydy
+            66.666600000000003              1.703866810115558              0.072648785833333
+           133.333300000000008              1.685301550815581              0.072627530173624
+           200.000000000000000              1.567651578000319              0.072493236111894
+           266.666600000000017              1.734598933713978              0.072684009913195
+           333.333300000000008              1.712334878389619              0.072658486857397
+           400.000000000000000              1.648293542930036              0.072585211174946
+           466.666600000000017              1.635152388777279              0.072570200811312
+           533.333300000000008              1.577931988241518              0.072504943031692
+           600.000000000000000              1.716032164254878              0.072662723609980
+           666.666600000000017              1.598608290766678              0.072528504524563
+           733.333300000000008              1.544351470012676              0.072466722607336
+           800.000000000000000              1.527066049644203              0.072447070972682
+           866.666600000000017              1.636789396743211              0.072572070192716
+           933.333300000000008              1.651419953593083              0.072588783574849
+          1000.000000000000000              1.645573385544930              0.072582103383345
+&
+@target G0.S2
+@type xydy
+&
+@target G0.S3
+@type xydy
+&
+@target G0.S4
+@type xydy
+&
+@target G0.S5
+@type xydy
+&
+@with g0
+@autoscale

@@ -1,0 +1,173 @@
+###############################################################################
+#                                                                             #
+# Copyright (C) 2017 Edward d'Auvergne                                        #
+#                                                                             #
+# This file is part of the program relax (http://www.nmr-relax.com).          #
+#                                                                             #
+# This program is free software: you can redistribute it and/or modify        #
+# it under the terms of the GNU General Public License as published by        #
+# the Free Software Foundation, either version 3 of the License, or           #
+# (at your option) any later version.                                         #
+#                                                                             #
+# This program is distributed in the hope that it will be useful,             #
+# but WITHOUT ANY WARRANTY; without even the implied warranty of              #
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the               #
+# GNU General Public License for more details.                                #
+#                                                                             #
+# You should have received a copy of the GNU General Public License           #
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.       #
+#                                                                             #
+###############################################################################
+
+
+Licensing
+=========
+
+These files are licensed under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version:
+
+chi2.agr:                                                                               Copyright (C) 2017 Edward d'Auvergne
+chi2.out:                                                                               Copyright (C) 2017 Edward d'Auvergne
+disp_10_N.agr:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_10_N.out:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_11_N.agr:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_11_N.out:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_12_N.agr:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_12_N.out:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_13_N.agr:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_13_N.out:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_14_N.agr:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_14_N.out:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_15_N.agr:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_15_N.out:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_16_N.agr:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_16_N.out:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_17_N.agr:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_17_N.out:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_18_N.agr:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_18_N.out:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_19_N.agr:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_19_N.out:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_1_N.agr:                                                                           Copyright (C) 2017 Edward d'Auvergne
+disp_1_N.out:                                                                           Copyright (C) 2017 Edward d'Auvergne
+disp_20_N.agr:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_20_N.out:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_21_N.agr:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_21_N.out:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_22_N.agr:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_22_N.out:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_23_N.agr:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_23_N.out:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_24_N.agr:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_24_N.out:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_25_N.agr:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_25_N.out:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_26_N.agr:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_26_N.out:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_29_N.agr:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_29_N.out:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_2_N.agr:                                                                           Copyright (C) 2017 Edward d'Auvergne
+disp_2_N.out:                                                                           Copyright (C) 2017 Edward d'Auvergne
+disp_31_N.agr:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_31_N.out:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_32_N.agr:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_32_N.out:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_33_N.agr:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_33_N.out:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_34_N.agr:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_34_N.out:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_35_N.agr:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_35_N.out:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_36_N.agr:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_36_N.out:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_37_N.agr:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_37_N.out:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_38_N.agr:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_38_N.out:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_39_N.agr:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_39_N.out:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_3_N.agr:                                                                           Copyright (C) 2017 Edward d'Auvergne
+disp_3_N.out:                                                                           Copyright (C) 2017 Edward d'Auvergne
+disp_40_N.agr:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_40_N.out:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_41_N.agr:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_41_N.out:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_42_N.agr:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_42_N.out:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_43_N.agr:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_43_N.out:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_44_N.agr:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_44_N.out:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_45_N.agr:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_45_N.out:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_46_N.agr:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_46_N.out:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_47_N.agr:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_47_N.out:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_48_N.agr:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_48_N.out:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_49_N.agr:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_49_N.out:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_4_N.agr:                                                                           Copyright (C) 2017 Edward d'Auvergne
+disp_4_N.out:                                                                           Copyright (C) 2017 Edward d'Auvergne
+disp_50_N.agr:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_50_N.out:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_51_N.agr:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_51_N.out:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_52_N.agr:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_52_N.out:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_53_N.agr:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_53_N.out:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_55_N.agr:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_55_N.out:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_56_N.agr:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_56_N.out:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_57_N.agr:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_57_N.out:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_58_N.agr:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_58_N.out:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_59_N.agr:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_59_N.out:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_5_N.agr:                                                                           Copyright (C) 2017 Edward d'Auvergne
+disp_5_N.out:                                                                           Copyright (C) 2017 Edward d'Auvergne
+disp_60_N.agr:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_60_N.out:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_61_N.agr:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_61_N.out:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_62_N.agr:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_62_N.out:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_63_N.agr:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_63_N.out:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_64_N.agr:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_64_N.out:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_65_N.agr:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_65_N.out:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_66_N.agr:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_66_N.out:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_67_N.agr:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_67_N.out:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_6_N.agr:                                                                           Copyright (C) 2017 Edward d'Auvergne
+disp_6_N.out:                                                                           Copyright (C) 2017 Edward d'Auvergne
+disp_70_N.agr:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_70_N.out:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_71_N.agr:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_71_N.out:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_72_N.agr:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_72_N.out:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_73_N.agr:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_73_N.out:                                                                          Copyright (C) 2017 Edward d'Auvergne
+disp_7_N.agr:                                                                           Copyright (C) 2017 Edward d'Auvergne
+disp_7_N.out:                                                                           Copyright (C) 2017 Edward d'Auvergne
+disp_8_N.agr:                                                                           Copyright (C) 2017 Edward d'Auvergne
+disp_8_N.out:                                                                           Copyright (C) 2017 Edward d'Auvergne
+dw.agr:                                                                                 Copyright (C) 2017 Edward d'Auvergne
+dw.out:                                                                                 Copyright (C) 2017 Edward d'Auvergne
+grace2images.py:                                                                        Copyright (C) 2017 Edward d'Auvergne
+kex.agr:                                                                                Copyright (C) 2017 Edward d'Auvergne
+kex.out:                                                                                Copyright (C) 2017 Edward d'Auvergne
+pA.agr:                                                                                 Copyright (C) 2017 Edward d'Auvergne
+pA.out:                                                                                 Copyright (C) 2017 Edward d'Auvergne
+r20a.agr:                                                                               Copyright (C) 2017 Edward d'Auvergne
+r20a.out:                                                                               Copyright (C) 2017 Edward d'Auvergne
+r20b.agr:                                                                               Copyright (C) 2017 Edward d'Auvergne
+r20b.out:                                                                               Copyright (C) 2017 Edward d'Auvergne
+results.bz2:                                                                            Copyright (C) 2017 Edward d'Auvergne
