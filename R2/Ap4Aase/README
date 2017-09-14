@@ -1,0 +1,63 @@
+###############################################################################
+#                                                                             #
+# Copyright (C) 2017 Edward d'Auvergne                                        #
+#                                                                             #
+# This program is free software; you can redistribute it and/or modify        #
+# it under the terms of the GNU General Public License as published by        #
+# the Free Software Foundation, either version 3 of the License, or           #
+# (at your option) any later version.                                         #
+#                                                                             #
+# This program is distributed in the hope that it will be useful,             #
+# but WITHOUT ANY WARRANTY; without even the implied warranty of              #
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the               #
+# GNU Library General Public License for more details.                        #
+#                                                                             #
+# You should have received a copy of the GNU General Public License           #
+# along with this program; if not, write to the Free Software                 #
+#                                                                             #
+###############################################################################
+
+
+Licencing
+=========
+
+These files are licensed under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version:
+
+Ap4Aase_new_3.pdb:                                                                      Copyright (C) 2006 Edward d'Auvergne
+T2_ncyc11_ave.list:                                                                     Copyright (C) 2006 Edward d'Auvergne
+T2_ncyc11b_ave.list:                                                                    Copyright (C) 2006 Edward d'Auvergne
+T2_ncyc1_ave.list:                                                                      Copyright (C) 2006 Edward d'Auvergne
+T2_ncyc1b_ave.list:                                                                     Copyright (C) 2006 Edward d'Auvergne
+T2_ncyc2_ave.list:                                                                      Copyright (C) 2006 Edward d'Auvergne
+T2_ncyc4_ave.list:                                                                      Copyright (C) 2006 Edward d'Auvergne
+T2_ncyc4b_ave.list:                                                                     Copyright (C) 2006 Edward d'Auvergne
+T2_ncyc6_ave.list:                                                                      Copyright (C) 2006 Edward d'Auvergne
+T2_ncyc9_ave.list:                                                                      Copyright (C) 2006 Edward d'Auvergne
+T2_ncyc9b_ave.list:                                                                     Copyright (C) 2006 Edward d'Auvergne
+unresolved:                                                                             Copyright (C) 2006 Edward d'Auvergne
+
+
+R2 relaxation curve-fitting analysis
+====================================
+
+This directory contains the 600MHz base data from the protein Ap4Aase required for curve-fitting R2 relaxation rates.
+
+
+Pre-calculated results
+----------------------
+
+The "analysis/" directory contains the results of an analysis using the relax scripting interface.  This can be used for comparison.
+
+
+Analysis
+--------
+
+The steps of the analysis to implement in the prompt, script, or GUI user interfaces are:
+
+    - Load the sequence data from the 'Ap4Aase_new_3.pdb' structure file.  This consists of 'N' and 'NE1' spins.
+    - Load all of the '*.list' Sparky peak lists.  The 'ncyc' part of the file name corresponds to the number of cycles of the spin-echo pulses.  The time unit for ncyc=1 is 0.0176 seconds.
+    - Define which spectra have been replicated (this should be obvious from the file names).
+    - Determining the peak intensity errors - this will use the replicated spectra. 
+    - Deselect the residues in the 'unresolved' file.
+    - Set the relaxation curve-fitting model to 2 parameter exponential decay.
+    - Calculate the R2.
