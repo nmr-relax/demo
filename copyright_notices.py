@@ -214,6 +214,21 @@ ADDITIONAL_COPYRIGHT_YEARS = {
     'model_free/OMP/1F35_H.pdb':                                        [[2006, "Edward d'Auvergne"]],
     'model_free/OMP/rates.txt':                                         [[2006, "Edward d'Auvergne"]],
     'model_free/OMP/analysis/dauvergne_protocol.py':                    [[[2003, 2004, 2005, 2006, 2007, 2008, 2009, 2011, 2012], "Edward d'Auvergne"], [2008, "Sebastien Morin"]],
+    'R2/Ap4Aase/Ap4Aase_new_3.pdb':                                     [[2006, "Edward d'Auvergne"]],
+    'R2/Ap4Aase/T2_ncyc11_ave.list':                                    [[2006, "Edward d'Auvergne"]],
+    'R2/Ap4Aase/T2_ncyc11b_ave.list':                                   [[2006, "Edward d'Auvergne"]],
+    'R2/Ap4Aase/T2_ncyc1_ave.list':                                     [[2006, "Edward d'Auvergne"]],
+    'R2/Ap4Aase/T2_ncyc1b_ave.list':                                    [[2006, "Edward d'Auvergne"]],
+    'R2/Ap4Aase/T2_ncyc2_ave.list':                                     [[2006, "Edward d'Auvergne"]],
+    'R2/Ap4Aase/T2_ncyc4_ave.list':                                     [[2006, "Edward d'Auvergne"]],
+    'R2/Ap4Aase/T2_ncyc4b_ave.list':                                    [[2006, "Edward d'Auvergne"]],
+    'R2/Ap4Aase/T2_ncyc6_ave.list':                                     [[2006, "Edward d'Auvergne"]],
+    'R2/Ap4Aase/T2_ncyc9_ave.list':                                     [[2006, "Edward d'Auvergne"]],
+    'R2/Ap4Aase/T2_ncyc9b_ave.list':                                    [[2006, "Edward d'Auvergne"]],
+    'R2/Ap4Aase/T2_ncyc1_ave.list':                                     [[2006, "Edward d'Auvergne"]],
+    'R2/Ap4Aase/unresolved':                                            [[2006, "Edward d'Auvergne"]],
+    'R2/Ap4Aase/analysis/relax_fit.py':                                 [[[2004, 2006, 2007, 2008], "Edward d'Auvergne"]],
+    'R2/Ap4Aase/analysis/grace/grace2images.py':                        [[2013, "Troels E. Linnet"], [2013, "Edward d'Auvergne"]],
 }
 
 # False positives (copyright notices in files to ignore, as they are not in the git log).
@@ -231,6 +246,20 @@ FALSE_NEG_YEARS = {
     'NOE/Ap4Aase/unresolved':                                           [[2017, "Edward d'Auvergne"]],
     'model_free/OMP/1F35_H.pdb':                                        [[2017, "Edward d'Auvergne"]],
     'model_free/OMP/rates.txt':                                         [[2017, "Edward d'Auvergne"]],
+    'R2/Ap4Aase/Ap4Aase_new_3.pdb':                                     [[2017, "Edward d'Auvergne"]],
+    'R2/Ap4Aase/T2_ncyc11_ave.list':                                    [[2017, "Edward d'Auvergne"]],
+    'R2/Ap4Aase/T2_ncyc11b_ave.list':                                   [[2017, "Edward d'Auvergne"]],
+    'R2/Ap4Aase/T2_ncyc1_ave.list':                                     [[2017, "Edward d'Auvergne"]],
+    'R2/Ap4Aase/T2_ncyc1b_ave.list':                                    [[2017, "Edward d'Auvergne"]],
+    'R2/Ap4Aase/T2_ncyc2_ave.list':                                     [[2017, "Edward d'Auvergne"]],
+    'R2/Ap4Aase/T2_ncyc4_ave.list':                                     [[2017, "Edward d'Auvergne"]],
+    'R2/Ap4Aase/T2_ncyc4b_ave.list':                                    [[2017, "Edward d'Auvergne"]],
+    'R2/Ap4Aase/T2_ncyc6_ave.list':                                     [[2017, "Edward d'Auvergne"]],
+    'R2/Ap4Aase/T2_ncyc9_ave.list':                                     [[2017, "Edward d'Auvergne"]],
+    'R2/Ap4Aase/T2_ncyc9b_ave.list':                                    [[2017, "Edward d'Auvergne"]],
+    'R2/Ap4Aase/T2_ncyc1_ave.list':                                     [[2017, "Edward d'Auvergne"]],
+    'R2/Ap4Aase/unresolved':                                            [[2017, "Edward d'Auvergne"]],
+    'R2/Ap4Aase/analysis/relax_fit.py':                                 [[2017, "Edward d'Auvergne"]],
 }
 
 # Commits to exclude as a list of commit keys - the first line of the commit message followed by the ISO date in brackets.
