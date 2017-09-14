@@ -1,0 +1,44 @@
+###############################################################################
+#                                                                             #
+# Copyright (C) 2009 Sebastien Morin                                          #
+# Copyright (C) 2013,2017 Edward d'Auvergne                                   #
+#                                                                             #
+# This file is part of the program relax (http://www.nmr-relax.com).          #
+#                                                                             #
+# This program is free software: you can redistribute it and/or modify        #
+# it under the terms of the GNU General Public License as published by        #
+# the Free Software Foundation, either version 3 of the License, or           #
+# (at your option) any later version.                                         #
+#                                                                             #
+# This program is distributed in the hope that it will be useful,             #
+# but WITHOUT ANY WARRANTY; without even the implied warranty of              #
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the               #
+# GNU General Public License for more details.                                #
+#                                                                             #
+# You should have received a copy of the GNU General Public License           #
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.       #
+#                                                                             #
+###############################################################################
+
+Licensing
+=========
+
+These files are licensed under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version:
+
+fake_sequence.in:                                                                       Copyright (C) 2009 Sebastien Morin
+
+
+Origin
+======
+
+The dataset contained in this folder was published in:
+
+    Hansen, D. F., Vallurupalli, P. and Kay, L. E. (2008).  An Improved 15N Relaxation Dispersion Experiment for the Measurement of Millisecond Time-Scale Dynamics in Proteins.  J. Phys. Chem. B, 112, 5898-5904 (http://dx.doi.org/10.1021/jp074793o).
+
+The directories contain the data recorded using the improved pulse sequence with 1H CW decoupling during the CPMG period.
+
+It was was friendly provided by Dr Flemming Hansen (flemming AT pound DOT med DOT utoronto DOT ca)
+
+The original format was different and was modified to better suit the way relax handles datasets.
+
+The files ending in '_sparky' include both the intensities and chemical shifts for each residue and are formatted similarly to 'Sparky' peak lists.
