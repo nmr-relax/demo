@@ -233,7 +233,7 @@ ADDITIONAL_COPYRIGHT_YEARS = {
 
 # False positives (copyright notices in files to ignore, as they are not in the git log).
 FALSE_POS = {
-    'copyright_notices.py':                                             ["Copyright (C) year1, year2, year3 copyright-holder"],
+    'fsfcv.conf.py':                                                    ["Copyright (C) year1, year2, year3 copyright-holder"],
 }
 
 # False negatives (significant git log commits which do not imply copyright ownership).
