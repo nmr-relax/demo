@@ -1,6 +1,6 @@
 ###############################################################################
 #                                                                             #
-# Copyright (C) 2017 Edward d'Auvergne                                        #
+# Copyright (C) 2017,2019 Edward d'Auvergne                                   #
 #                                                                             #
 # This file is part of the program relax (http://www.nmr-relax.com).          #
 #                                                                             #
@@ -31,14 +31,15 @@ SIG_CODE = 8
 
 # The repository checkout copies, to allow for repository migrations, ordered by date from oldest to newest.
 # The data consists of:
-#       0 - The repository path.
-#       1 - The repository type (either "svn" or "git").
-#       2 - The start date.
-#       3 - The end date.
+#       0 - The repository path or committer information file path.
+#       1 - The repository type (either "svn", "git", or "committer_info").
+#       2 - The start date (year).
+#       3 - The end date (year).
 #       4 - The optional HEAD directory for svn.
+#       5 - Flag which if True indicates a truncated start (so don't add the first commit).
 # Type:  list of [str, str, int, int, str or None]
 REPOS = [
-    [".", "git", 2017, 2050, None],
+    [".", "git", 2017, 2050, None, False],
 ]
 
 # README file creation variables, for appending copyright notices to README files.
