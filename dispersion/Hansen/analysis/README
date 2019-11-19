@@ -1,0 +1,59 @@
+###############################################################################
+#                                                                             #
+# Copyright (C) 2017 Edward d'Auvergne                                        #
+#                                                                             #
+# This file is part of the program relax (http://www.nmr-relax.com).          #
+#                                                                             #
+# This program is free software: you can redistribute it and/or modify        #
+# it under the terms of the GNU General Public License as published by        #
+# the Free Software Foundation, either version 3 of the License, or           #
+# (at your option) any later version.                                         #
+#                                                                             #
+# This program is distributed in the hope that it will be useful,             #
+# but WITHOUT ANY WARRANTY; without even the implied warranty of              #
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the               #
+# GNU General Public License for more details.                                #
+#                                                                             #
+# You should have received a copy of the GNU General Public License           #
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.       #
+#                                                                             #
+###############################################################################
+
+
+Licensing
+=========
+
+These files are licensed under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version:
+
+relax_disp.log:                                                                         Copyright (C) 2017 Edward d'Auvergne
+
+
+Relaxation dispersion CPMG analysis
+===================================
+
+The pre-calculated results in this directory were generated using the script UI by running:
+
+$ relax relax_disp.py --tee relax_disp.log
+
+Grace graphs can be converted to vector and bitmap images by typing the following in the terminal:
+
+$ cd CR72/
+$ ./grace2images.py EPS,SVG,JPG
+$ cd ../CR72_full/
+$ ./grace2images.py EPS,SVG,JPG
+$ cd ../IT99/
+$ ./grace2images.py EPS,SVG,JPG
+$ cd ../LM63/
+$ ./grace2images.py EPS,SVG,JPG
+$ cd ../LM63_3-site/
+$ ./grace2images.py EPS,SVG,JPG
+$ cd ../No_Rex/
+$ ./grace2images.py EPS,SVG,JPG
+$ cd ../NS_CPMG_2-site_3D/
+$ ./grace2images.py EPS,SVG,JPG
+$ cd ../NS_CPMG_2-site_expanded/
+$ ./grace2images.py EPS,SVG,JPG
+$ cd ../NS_CPMG_2-site_star/
+$ ./grace2images.py EPS,SVG,JPG
+$ cd ../R2eff/
+$ ./grace2images.py EPS,SVG,JPG
